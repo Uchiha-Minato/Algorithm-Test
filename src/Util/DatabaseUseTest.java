@@ -60,6 +60,7 @@ public class DatabaseUseTest {
         if(row != 0) {
             for (Lines line: list) {
                 lines.add(String.valueOf(line));
+                System.out.println(line.toString());
             }
         }
         System.out.println(lines);
